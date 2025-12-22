@@ -149,6 +149,7 @@ entities = {
     'XH02-M': {
         'type': EntityType.HEAT,
         'actions': [
+            TestAction(shadow='appXh02mSelfTest'),
         ]
     },
     'XP0A-MR': {
