@@ -180,6 +180,8 @@ entities = {
     'XS03-iWX': {
         # Smoke RF
         'type': EntityType.SMOKE,
+        'actions': [
+            TestAction(),
     },
     'XS03-WX': {}
 }
